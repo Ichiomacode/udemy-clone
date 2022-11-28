@@ -1,0 +1,308 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .1) ;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.udemy-logo {
+    width: 7%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+.input {
+    position: relative;
+    top: 10px;
+    width: 650px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #F7F9FA;
+    border: .5px solid gray;
+    margin-left: 35px;
+}
+.nav-bar p {
+    position: relative;
+    top: 28px;
+    left: 12px;
+    font-size: 0.8rem;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #1b1c1e;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: 0.8rem;
+}
+.nav-bar a:hover {
+    color: blue;
+}
+form {
+    position: relative;
+}
+input::placeholder {
+   padding-left: 30px;
+}
+.udemy a {
+    font-size: 12px;
+}
+.search-bar {
+    width: 4%;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    opacity: 0.5;
+}
+.nav-button3 svg {
+    width: 100%;
+}
+.button-class {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    top: 5px;
+}
+.nav-button {
+    background: none;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.nav-button2 {
+    background: #1b1c1e;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+.nav-button3 {
+    background: none;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid black;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.nav-button button:hover {
+    background-color: #F7F9FA;
+}
+button {
+    width: 120px;
+    padding: 5px;
+}
+.container {
+    display: flex;
+}
+.first-child {
+    margin: auto;
+    position: relative;
+
+}
+.first-child img{
+    max-width:100% ;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 1420px;
+    height: 400px;
+}
+.text-box {
+    background-color: white;
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+.text-box-h2 {
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2rem;
+    color: #1b1c1e;
+    padding: 30px 0 15px 30px ;
+}
+.text-box p {
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+.section2 h1 {
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 2.2rem;
+    color: #1b1c1e;
+    margin: 40px 0 20px 100px;
+}
+.secction2 p {
+    font-size: 1.2rem;
+    margin: 20px 0 20px 100px;   
+}
+.all-skill {
+    margin-left: 100px;
+}
+.all-skill a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: gray;
+   
+}
+.all-skill a:hover {
+    color: black;
+}
+.all-skill_tags {
+    padding-left: 20px;
+}
+/* THIRD SECTION */
+.section2 {
+    display: flex;
+}
+.wrapper {
+    border: 1px solid gray;
+    margin: auto;
+    width: 87%;
+    margin-top: 20px;
+    height: 70%;
+}
+.wrapper h2 {
+    padding: 30px 0 10px 30px;
+}
+.wrapper p {
+    padding-left: 30px;
+}
+.second_button {
+    width: 130px;
+    padding: 10px;
+    background: none;
+    margin: 30px 0 0 30px;
+    font-weight: bold;
+}
+.all{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+     justify-content: space-around;
+}
+
+ .all li{
+    list-style-type: none;
+ }
+ 
+ .all span{
+    text-decoration: line-through;
+ }
+ .all p{
+    line-height: 1.2rem;
+    font-size: 13px;
+    padding-left: 3px;
+ }
+ .all .gold{
+    color: brown;
+ }
+ .all button{
+    background-color: gold;
+ }
+ .rating img{
+    background-color: gold;
+    cursor: pointer;
+ }
+.value{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 60px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+.value img{
+    padding-right: 10px;
+}
+ .value1{
+    display: flex;
+    padding-left: 40px;
+ }
+ .value2{
+    display: flex;
+    padding-left: 40px;
+ }
+ .value3{
+    display: flex;
+    padding-left: 40px;
+ }
+ .all2{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+     justify-content: space-around;
+     margin-top: 60px;
+     margin-left: 15px;
+}
+.all2 li{
+    list-style-type: none;
+}
+.all2 span{
+    text-decoration: line-through;
+ }
+ .all2 p{
+    line-height: 1.2rem;
+    font-size: 13px;
+    padding-left: 3px;
+ }
+ .all2 .gold{
+    color: brown;
+}
+.all2 button{
+    background-color: gold;
+    border: none;
+ }
+ .student{
+    margin-left: 20px;
+   padding-top: 5px;
+   margin-top: 50px;
+   font-size: 30px;
+ }
+ .feature{
+    display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-around;
+  font-size: 20px;
+ }
+ .section5{
+    background-color: whitesmoke;
+    margin-top: 20px;
+ }
+ .feature li{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+ }
+ .feature a{
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ .section5 button{
+    margin-left: 40px;
+   width: 200px;
+ 
+ }
+ .section5 h1{
+    margin-left: 100px;
+ }
