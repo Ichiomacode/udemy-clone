@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *,
 ::after,
 ::before {
@@ -306,3 +307,490 @@ button {
  .section5 h1{
     margin-left: 100px;
  }
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, .1) ;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.udemy-logo {
+    width: 7%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+.input {
+    position: relative;
+    top: 10px;
+    width: 650px;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #F7F9FA;
+    border: .5px solid gray;
+    margin-left: 35px;
+}
+.nav-bar p {
+    position: relative;
+    top: 28px;
+    left: 12px;
+    font-size: 0.8rem;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #1b1c1e;
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: 0.8rem;
+}
+.nav-bar a:hover {
+    color: blue;
+}
+form {
+    position: relative;
+}
+input::placeholder {
+   padding-left: 30px;
+}
+.udemy a {
+    font-size: 12px;
+}
+.search-bar {
+    width: 4%;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    opacity: 0.5;
+}
+.nav-button3 svg {
+    width: 100%;
+}
+.button-class {
+    margin: 10px;
+    display: flex;
+    position: relative;
+    top: 5px;
+}
+.nav-button {
+    background: none;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.nav-button2 {
+    background: #1b1c1e;
+    padding: 10px;
+    width: 80px;
+    border: 1px solid black;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+.nav-button3 {
+    background: none;
+    padding: 10px;
+    width: 50px;
+    border: 1px solid black;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.nav-button button:hover {
+    background-color: #F7F9FA;
+}
+button {
+    width: 120px;
+    padding: 5px;
+}
+.container {
+    display: flex;
+}
+.first-child {
+    margin: auto;
+    position: relative;
+
+}
+.first-child img{
+    max-width:100% ;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 1420px;
+    height: 400px;
+}
+.text-box {
+    background-color: white;
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+}
+.text-box-h2 {
+    font-size: 2rem;
+    color: #1b1c1e;
+    padding: 30px 0 15px 30px ;
+}
+.text-box p {
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+.section2 h1 {
+    font-size: 2.2rem;
+    color: #1b1c1e;
+    margin: 40px 0 20px 100px;
+}
+.section2 p {
+    font-size: 1.2rem;
+    margin: 20px 0 20px 100px; 
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;   
+}
+.all-skill {
+    margin-left: 100px;
+}
+.all-skill a {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: gray;
+   
+}
+.all-skill a:hover {
+    color: black;
+}
+.all-skill_tags {
+    padding-left: 20px;
+}
+/* section 3 */
+.section3 {
+    display: flex;
+}
+.wrapper {
+    border: 1px solid gray;
+    margin: auto;
+    width: 87%;
+    margin-top: 20px;
+    height: 70%;
+}
+.wrapper h2 {
+    padding: 30px 0 10px 30px;
+}
+.wrapper p {
+    padding-left: 30px;
+}
+.second_button {
+    width: 130px;
+    padding: 10px;
+    background: none;
+    margin: 30px 0 0 30px;
+    font-weight: bold;
+}
+.all{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+     justify-content: space-around;
+}
+
+ .all li{
+    list-style-type: none;
+ }
+ 
+ .all span{
+    text-decoration: line-through;
+ }
+ .all p{
+    line-height: 1.2rem;
+    font-size: 13px;
+    padding-left: 3px;
+ }
+ .all .gold{
+    color: brown;
+ }
+ .all button{
+    background-color: gold;
+ }
+ .rating img{
+    background-color: gold;
+    cursor: pointer;
+ }
+.value{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 60px;
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+.value img{
+    padding-right: 10px;
+}
+ .value1{
+    display: flex;
+    padding-left: 40px;
+ }
+ .value2{
+    display: flex;
+    padding-left: 40px;
+ }
+ .value3{
+    display: flex;
+    padding-left: 40px;
+ }
+ .all2{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 10px;
+     justify-content: space-around;
+     margin-top: 60px;
+     margin-left: 15px;
+}
+.all2 li{
+    list-style-type: none;
+}
+.all2 span{
+    text-decoration: line-through;
+ }
+ .all2 p{
+    line-height: 1.2rem;
+    font-size: 13px;
+    padding-left: 3px;
+ }
+ .all2 .gold{
+    color: brown;
+}
+.all2 button{
+    background-color: gold;
+    border: none;
+ }
+ .student{
+    margin-left: 20px;
+   padding-top: 5px;
+   margin-top: 50px;
+   font-size: 30px;
+ }
+ .feature{
+    display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-around;
+  font-size: 15px;
+ }
+ .section5{
+    background-color: whitesmoke;
+    margin-top: 20px;
+ }
+ .feature li{
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+ }
+ .feature a{
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ .section5 button{
+    margin-left: 40px;
+   width: 200px;
+ 
+ }
+ .section5 h1{
+    margin-left: 100px;
+ }
+ .section6{
+    margin-top: 90px;
+ }
+ .trusted{
+    text-align: center;
+ }
+ .trusted h1{
+    font-size: 30px;
+ }
+ .trusted p{
+    font-size: 15px;
+    padding: 10px;
+ }
+ .logo{
+  justify-content: right;
+ }
+ .logo1{
+    padding: 70px;
+ }
+ .logo2{
+    padding: 70px;
+ }
+ .logo3{
+    padding: 70px;
+ }
+ .logo4{
+    padding: 70px;
+ }
+ .logo5{
+    padding: 70px;
+ }
+ .logo6{
+    padding: 70px;
+ }
+ .flex1{
+    display: flex;
+    justify-content: center;
+ }
+ .flex1-a{
+    padding: 30px;
+    gap: 40px;
+ }
+.flex1-a img{
+    width: 250px;
+}
+.flex1-a h1{
+    font-size: 40px;
+    margin-right: 59px;
+}
+.flex1-a ul{
+    font-size:23px ;
+    line-height: 2.5rem;
+    margin-right: 55px;
+}
+.image-laugh{
+    margin-left: 10px;
+}
+.buttons{
+    margin-left: 180px;
+    height: 6vh;
+    padding-left: 90px;
+}
+.get{
+    width: 240px;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.learn{
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+}
+.flex2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.flex2-a{
+    display: flex;
+}
+.instructor{
+    margin-top: 120px;
+    padding-left: 80px;
+}
+.instructor p{
+    font-size: 20px;
+    padding-right:20px ;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    line-height: 1.9rem;
+}
+.instructor h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.start{
+    width: 240px;
+    height: 6vh;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    
+}
+/*footer starts*/
+.a-tags{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    list-style-type: none;
+    margin-top: -4rem;
+}
+.a-tags li{
+    list-style-type: none;
+}
+footer{
+    max-width: 70%;
+   padding-top: 10px;
+    padding-left:30px ;
+    padding-right:100px ;
+    margin-top:2rem;
+    justify-content: space-around;
+  
+}
+footer a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    line-height: 2rem;
+    bottom: 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #1b1c1e;
+}.globe{
+   width: 150px;
+   color: white;
+   background-color: #1b1c1e;
+   border: 1px solid white ;
+   position: relative;
+   margin-left: 480px;
+   margin-top: 60px;
+   font-size: 20px;
+   height: 8vh;
+
+}
+.div-globe{
+    margin-left: 800px;
+    top: 5px;
+}
+.globe svg{
+    width: 30px;
+    margin-top: 2px;
+    position: absolute;
+    left: 5px;
+   bottom: 11px;
+}
+.last-part img{
+   color: white;
+}
+.last-part p{
+    color: white;
+    margin-left: 40rem;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+.last-part{
+    margin-top: 120px;
+    align-content: center;
+    padding-bottom: 20px;
+    display: inline-flex;
+}
+>>>>>>> c0646f9 (udemy page editted)
